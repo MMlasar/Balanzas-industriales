@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:ital@1&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*{margin: 0%;
+padding: 0%;}
+
+
+
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+h1{color: coral;
+text-align: center;
+padding: 25px 25px;
+font-size: 40px
+} 
+
+
+
+h2{
+    padding: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(238, 4, 4, 0.801);
+
+}
+
+.foot{
+    height: 60px;
+    display: flex;
+    background-color: rgba(238, 4, 4, 0.801);
+
+}
+
+.foot-1{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+.bi{
+font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: 30px ;
+}
+
+main{background-color: #fff;
+    margin-top: 70px;
+}
+
+.carousel-item img {
+    height: 550px;
+    object-fit: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.instrumentos{
+    display: flex;
+    align-items: center;
+    height: 180px;
+    width: 100vw;
+    background-color: #333;
+}
+
+.instrumentos-1{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    font-size: 30px;
+    color: azure;
+}
+
+.border {
+    border-left: 2px solid red;
+}
+
+
+
+.caja { display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100 vh; 
+    width: 96%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+    
+}
+.caja img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.caja_text{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.caja_1{
+    width: 30% ;
+   
+}
+.caja_2{
+    width: 30% ;
+ 
+}
+.caja_3{
+    width: 30% ;
+}
+
+
+
+
+.industria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100 vh; 
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+    padding: 40px;
+    gap: 15px;
+}
+
+.descripcion{color: rgb(236, 10, 10);
+    background-color: #333;
+font-size: 35px;
+padding:20px;
+text-align: center;
+border: 3px solid rgb(226, 117, 15);
+border-radius: 5px;
+}
+
+.certificado{
+color: rgb(236, 10, 10);
+background-color: #333;
+font-size: 35px;
+padding:20px;
+text-align: center;
+border: 3px solid rgb(226, 117, 15);
+border-radius: 5px;
+}
+
+.validacion{
+    display: flex;
+    align-self: center;
+    width: 80%;
+    height: 500px;
+}
+
+
+.mercaderias{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    width: 100%; }
+
+.mercaderias img{
+    height: 50%;
+    width: 25%;
+    object-fit: cover;
+}
+.mercaderias div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.mercaderia-texto{
+    display: flex;
+    align-items: center;
+}
+
+
+.videobalanza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 25px;
+}
+
+.destacados{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.destacados-1, .destacados-2, .destacados-3 ,.destacados-4{ 
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.col img{
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    padding: 15px;
+}
+
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+.formularioboost{
+    padding: 20px;
+ 
+}
+
+@media ( max-width:768px ) {
+
+    .instrumentos{
+        height: 350px;
+    }
+
+     .instrumentos-1 {
+        flex-direction: column;
+    }
+
+     .border{
+        border: 3px solid red;
+     }
+
+
+     .caja{display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+      .caja img{  width: 70%;
+        padding: 10px;
+        object-fit: cover;
+
+      }
+      .caja_1{
+        width: 100%;
+        padding: 10px;
+       
+    }
+      .caja_2{
+        width: 100% ;
+        padding: 10px;
+     
+    }
+      .caja_3{
+        width: 100% ;
+        padding: 10px;
+    }
+    .validacion{
+        display: flex;
+       flex-direction: column;
+        width: 80%;
+        height: 100%;
+    }
+
+    .industria{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100 vh; 
+        width: 90%;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 5px;
+        padding: 10px;
+    }
+    .mercaderias{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center; }
+
+     .destacados{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+     }   
+     .videobalanza{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+     }
+
+
+        }
+
+
+
+
+
+
+
+
+
