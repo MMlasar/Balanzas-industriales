@@ -1,0 +1,13 @@
+.foot{
+    height: 60px;
+    display: flex;
+    background-color: rgba(238, 4, 4, 0.801);
+    .foot-1{
+        list-style-type: none;
+        display: flex;
+        gap: 15px;
+        .bi{
+            font-size: 40px;
+            }
+    }
+}

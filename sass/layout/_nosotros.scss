@@ -1,0 +1,39 @@
+.industria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100 vh; 
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 30px;
+    padding: 40px;
+    gap: 15px;
+
+    .descripcion{color: rgb(236, 10, 10);
+        background-color: #333;
+    font-size: 35px;
+    padding:20px;
+    text-align: center;
+    border: 3px solid rgb(226, 117, 15);
+    border-radius: 5px;
+    }
+}
+
+.certificado{
+color: rgb(236, 10, 10);
+background-color: #333;
+font-size: 35px;
+padding:20px;
+text-align: center;
+border: 3px solid rgb(226, 117, 15);
+border-radius: 5px;
+}
+.validacion{
+    display: flex;
+    align-self: center;
+    width: 80%;
+    height: 500px;
+}
+
+

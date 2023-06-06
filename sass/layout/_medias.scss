@@ -1,0 +1,85 @@
+
+@media ( max-width:768px ) {
+
+    .instrumentos{
+        height: 350px;
+    }
+
+     .instrumentos-1 {
+        flex-direction: column;
+    }
+
+     .border{
+        border: 3px solid red;
+     }
+
+
+     .caja{display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+      .caja img{  width: 70%;
+        padding: 10px;
+        object-fit: cover;
+
+      }
+      .caja_1{
+        width: 100%;
+        padding: 10px;
+       
+    }
+      .caja_2{
+        width: 100% ;
+        padding: 10px;
+     
+    }
+      .caja_3{
+        width: 100% ;
+        padding: 10px;
+    }
+    .validacion{
+        display: flex;
+       flex-direction: column;
+        width: 80%;
+        height: 100%;
+    }
+
+    .industria{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100 vh; 
+        width: 90%;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 5px;
+        padding: 10px;
+    }
+    .mercaderias{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .mercaderias-1,.mercaderias-2,.mercaderias-3,.mercaderias-4,.mercaderias-5,.mercaderias-6{
+      @include flex (column,center,center,5px); 
+    }
+
+     .destacados{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+     }   
+     .videobalanza{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+     }
+
+
+        }

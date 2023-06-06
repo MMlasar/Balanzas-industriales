@@ -1,0 +1,39 @@
+h1{color: coral;
+    text-align: center;
+    padding: 25px 25px;
+    font-size: 40px
+    } 
+    
+    
+    
+h2{
+        padding: 15px;
+    }
+
+.videobalanza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 25px;
+}
+
+.destacados{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+}
+
+.destacados-1, .destacados-2, .destacados-3 ,.destacados-4{ 
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.col img{
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    padding: 15px;
+}

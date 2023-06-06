@@ -1,0 +1,83 @@
+main{background-color: $main-color;
+    margin-top: 70px;
+}
+
+h1{color: coral;
+    text-align: center;
+    padding: 25px 25px;
+    font-size: 40px
+    } 
+    
+    
+    
+.descripcion{
+        text-align: center;
+        padding: 15px;
+        font-size: 40px;
+    }
+
+.carousel-item img {
+    height: 550px;
+    object-fit: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.instrumentos{
+    display: flex;
+    align-items: center;
+    height: 180px;
+    width: 100vw;
+    background-color: #333;
+
+    .instrumentos-1{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        font-size: 30px;
+        color: azure;
+
+        .border {
+            border-left: 2px solid red;
+        }
+    }
+    
+    
+}
+
+
+.caja { display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100 vh;
+    width: 96%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+
+    .caja_1{
+        width: 30% ;
+       
+    }
+    .caja_2{
+        width: 30% ;
+     
+    }
+    .caja_3{
+        width: 30% ;
+    }
+    
+    
+}
+.caja img{
+    @include imagenes (100%,300px,cover);
+}
+.caja_text{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
