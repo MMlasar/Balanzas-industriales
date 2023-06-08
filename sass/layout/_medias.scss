@@ -18,7 +18,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        padding: 15px;
     }
       .caja img{  width: 70%;
         padding: 10px;
@@ -74,6 +74,9 @@
         flex-wrap: wrap;
         align-items: center;
      }   
+     .destacados-1, .destacados-2, .destacados-3{
+        @include flex (column,center,center,5px);
+     }
      .videobalanza{
         display: flex;
         flex-direction: row;

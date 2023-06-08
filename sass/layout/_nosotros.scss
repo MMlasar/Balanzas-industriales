@@ -11,7 +11,7 @@
     gap: 15px;
 
     .descripcion{color: rgb(236, 10, 10);
-        background-color: #333;
+    background-color: $light-color;
     font-size: 35px;
     padding:20px;
     text-align: center;
@@ -22,7 +22,7 @@
 
 .certificado{
 color: rgb(236, 10, 10);
-background-color: #333;
+background-color: $light-color;
 font-size: 35px;
 padding:20px;
 text-align: center;

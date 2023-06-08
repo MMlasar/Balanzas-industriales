@@ -9,6 +9,9 @@ h1{color: coral;
 h2{
         padding: 15px;
     }
+main{
+    width: 98%;
+}    
 .mapa{
     display: flex;
     justify-content: center;
@@ -16,8 +19,9 @@ h2{
     padding: 15px;
     gap: 15px;
 }
-
 .formularioboost{
-    padding: 20px;
- 
+    padding: 10px;
+}
+.row {
+    padding: 15px;
 }
