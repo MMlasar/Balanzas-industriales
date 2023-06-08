@@ -19,26 +19,26 @@
         justify-content: center;
         align-items: center;
         padding: 15px;
+
+        .caja_1{
+            width: 100%;
+            padding: 10px;
+        }
+        .caja_2{
+            width: 100%;
+            padding: 10px;
+        }
+        .caja_3{
+            width: 100%;
+            padding: 10px;
+        }
     }
       .caja img{  width: 70%;
         padding: 10px;
         object-fit: cover;
 
       }
-      .caja_1{
-        width: 100%;
-        padding: 10px;
-       
-    }
-      .caja_2{
-        width: 100% ;
-        padding: 10px;
-     
-    }
-      .caja_3{
-        width: 100% ;
-        padding: 10px;
-    }
+
     .validacion{
         display: flex;
        flex-direction: column;

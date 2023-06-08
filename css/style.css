@@ -129,22 +129,22 @@ h1 {
     align-items: center;
     padding: 15px;
   }
+  .caja .caja_1 {
+    width: 100%;
+    padding: 10px;
+  }
+  .caja .caja_2 {
+    width: 100%;
+    padding: 10px;
+  }
+  .caja .caja_3 {
+    width: 100%;
+    padding: 10px;
+  }
   .caja img {
     width: 70%;
     padding: 10px;
     object-fit: cover;
-  }
-  .caja_1 {
-    width: 100%;
-    padding: 10px;
-  }
-  .caja_2 {
-    width: 100%;
-    padding: 10px;
-  }
-  .caja_3 {
-    width: 100%;
-    padding: 10px;
   }
   .validacion {
     display: flex;
@@ -309,7 +309,7 @@ h2 {
   display: flex;
   align-self: center;
   width: 80%;
-  height: 500px;
+  height: 100%;
 }
 
 h1 {
