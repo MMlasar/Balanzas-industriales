@@ -41,9 +41,13 @@ h1{color: coral;
 
         .border {
             border-left: 2px solid red;
+            transition: .3s;
         }
     }
-    
+    .border:hover{
+        color: crimson;
+        font-size: 31px;
+    }
     
 }
 
@@ -76,8 +80,13 @@ h1{color: coral;
     @include imagenes (100%,300px,cover);
 }
 .caja_text{
-    background-color: antiquewhite;
+    background-color: rgb(247, 241, 241);
     display: flex;
     flex-direction: column;
     padding: 15px;
+    transition: 0.5s;
+}
+.caja_text:hover{
+    background-color: rgb(235, 208, 208);
+    box-shadow: 3px 3px 3px 3px  #3a3939;
 }

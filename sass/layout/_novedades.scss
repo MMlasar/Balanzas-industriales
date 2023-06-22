@@ -5,7 +5,6 @@ h1{color: coral;
     } 
     
     
-    
 h2{
         padding: 15px;
     }
@@ -22,13 +21,29 @@ h2{
     display: flex;
     flex-direction: column;
     width: 90%;
-    
+    padding: 15px;
+}
+.destacados img{
+    transition: .4s;
+}
+.destacados img:hover{
+    transform: scale(1.2);
+    filter: contrast(90%);
+    border-radius: 70%;
+}
+.destacados div{
+    border: 2px solid #191919a1 ;
 }
 
 .destacados-1, .destacados-2, .destacados-3 ,.destacados-4{ 
     display: flex;
     align-items: center;
     padding: 20px;
+}
+.destacados p:hover{
+    transform: scale(1.04, 1.3);
+    color: #5c1313;
+    box-shadow: 1px 1px 2px 2px  #3a3939;
 }
 
 .col img{

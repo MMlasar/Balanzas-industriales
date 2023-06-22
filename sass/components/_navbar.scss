@@ -12,3 +12,22 @@ nav{
     background-color: rgba(238, 4, 4, 0.801);
 
 }
+.offcanvas{
+    background-color:rgba(238, 4, 4, 0.801);;
+}
+.nav-link{
+    border: 2px solid rgb(182, 11, 11);
+    border-radius: 3px;
+    padding: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    background-color:rgba(230, 42, 42, 0.801) ;
+    border-color: rgb(172, 19, 19);
+    border-radius: 6px;
+    transform: scale(1.07);
+}
+.nav-item{
+    padding: 2px;
+}
